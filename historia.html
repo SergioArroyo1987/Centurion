@@ -11,6 +11,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
         defer></script>
     <link rel="stylesheet" href="/centurion/src/assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="/responsive.css" /> 
     <title>HistoriaPizzeriaCenturion</title>
 </head>
 
@@ -36,7 +37,7 @@
                 </li>
 
                 <li class="menu__opciones">
-                    <a href="#" class="menu__link">Carta</a>
+                    <a href="carta.html" class="menu__link">Carta</a>
                     <div class="menu__linea">
                     </div>
                 </li>
@@ -56,45 +57,61 @@
             <div class="menu__logo">
                 <img src="/centurion/src/assets/img/logos.jpg" class="logo__imagen" alt="">
             </div>
+            <div class="layout__hamburguesa layout__hamburguesa--oculto">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-x"></i>
+    
+            </div>
 
 
             </footer>
         </div>
         <div class="layout__historia">
             <div class="historia__decoracion">
-                <img src="/centurion/src/assets/img/peperonibordes.jpg" class="decoracion__imagen">
+                
             </div>
             
             <div class="historia__quien">
                 <h3 class="historia__titulo">¿Quienes Somos?</h3>
-                <p class="historia__texto historia__texto--margen1">en 2011 esta pizzeria abrió por primera vez sus puertas ofreciendo su
+                <p class="historia__texto historia__texto--margen1">En 2011 esta pizzeria abrió por primera vez sus puertas ofreciendo su
                     variedad de productos por primera vez, productos que a lo largo del tiempo se han ido adaptando a
                     las necesidades de nuestros clientes, conservando siempre la calidad que nos caracteriza y nuestros
                     precios.</p>
-                <img src="/centurion/src/assets/img/portada.jpg" class="historia__imagenes historia__imagenes--1" alt="">
+                    <div class="quien__imagen quien__imagen--uno">
+
+                    </div>
+                
             </div>
-            <div class="historia__quien">
-                <h3 class="historia__titulo">Nuestro Productos</h3>
+            <div class="historia__quien historia__quien--responsive">
+                <div class="quien__imagen quien__imagen--dos">
+
+                </div>
+               
                 <p class="historia__texto historia__texto--margen2">Productos de calidad a precios competitivos, recogida local o a domicilio,
                     servicio de mesas en local.
                     Celebraciones tanto en local como a domicilio.</p>
-                <img src="/centurion/src/assets/img/crispybordes.jpg" class="historia__imagenes historia__imagenes--2" alt="">
+                    <h3 class="historia__titulo">¿Que te Ofrecemos?</h3>
+                    
             </div>
             <div class="historia__quien">
-                <h3 class="historia__titulo">¿Que te Ofrecemos?</h3>
+                <h3 class="historia__titulo">Nuestro Productos</h3>
                 <p class="historia__texto">Ofrecemos pizzas con 3 bases diferentes finas, gruesa y con bordes rellenos
                     de queso(gouda o cheddar), Nuestro delicioso rollitos de kebap, pollo crujiente o rl centurion.
                     Para acompañar puedes elegir nuestras deliciosas patatas gratinadas, alitas con bbq, finger de pollo
                     y jalapeños.
                     Si no eres amante de las pizzas no te preocupes que también tenemos nuestros bocadillos xxl
                     (chapatones), o nuestras deliciosas hamburguesas.</p>
-                <img src="/centurion/src/assets/img/folleto (1).jpeg" class="historia__imagenes" alt="">
+                    <div class="quien__imagen quien__imagen--tres">
+
+                    </div>
             </div>
 
         </div>
-
     </div>
 
+   
+
 </body>
+<script src="/java.js"></script>
 
 </html>

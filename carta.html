@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="/centurion/src/assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <title>Pizzeria Centurion Torredelcampo</title>
+
+</head>
+
+<body>
+    <div class="layout">
+        <div class="layout__menu">
+
+            <ul class="menu__lista">
+                <li class="menu__opciones">
+                    <a href="index.html" class="menu__link ">Inicio</a>
+                    <div class="menu__linea">
+                    </div>
+                </li>
+                <li class="menu__opciones">
+                    <a href="historia.html" class="menu__link">Historia</a>
+                    <div class="menu__linea">
+                    </div>
+                </li>
+                <li class="menu__opciones">
+                    <a href="/noticias.html" class="menu__link ">Noticias</a>
+                    <div class="menu__linea">
+                    </div>
+                </li>
+
+                <li class="menu__opciones">
+                    <a href="carta.html" class="menu__link menu__activo">Carta</a>
+                    <div class="menu__linea">
+                    </div>
+                </li>
+
+                <li class="menu__opciones">
+                    <a href="#" class="menu__link">Contacto</a>
+                    <div class="menu__linea">
+                    </div>
+                </li>
+                <footer class="menu__footer">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </footer>
+
+            </ul>
+
+            <div class="menu__logo">
+                <img src="/centurion/src/assets/img/logos.jpg" class="logo__imagen" alt="">
+            </div>
+
+
+            </footer>
+        </div>
+        <div class="layout__carta">
+            <div class="carta__decoracion">
+                <img src="/centurion/src/assets/img/derecha.avif" alt="" class="carta__imagen carta__imagen--imagen1">
+            </div>
+            <div class="carta__decoracion">
+                <img src="/centurion/src/assets/img/fondo abajo.jpg" alt=""
+                    class="carta__imagen carta__imagen--imagen2">
+            </div>
+            <div class="carta__menu">
+                <ul class="menu__nav">
+                    <li class="nav__opciones">
+                        <button class="nav__link nav__link--pizza" onclick="mostrar('.contenido__pizza')"></button>
+                    </li>
+                    <li class="nav__opciones">
+                        <button class="nav__link nav__link--chapatones" onclick="mostrar('.contenido__chapatones')"></button>
+                    </li>
+                    <li class="nav__opciones">
+                        <button class="nav__link nav__link--hamburguesa"  onclick="mostrar('.contenido__hamburguesas')"></button>
+                    </li>
+                    <li class="nav__opciones">
+                        <button class="nav__link nav__link--otros" onclick="mostrar('.contenido__otros')"></button>
+                    </li>
+                </ul>
+            </div>
+            <section class="carta__contenido">
+
+                <ul class="contenido__pizza oculto">
+                    <h4 class="pizza__titulo">Pizzas</h4>
+                    <h3>Normales:</h3>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">York: </spam>
+                        <spam class="pizza__texto">York,tomate, mozzarella</spam> 8€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Atún: </spam>
+                        <spam class="pizza__texto">Atún,tomate, mozzarella</spam> 8€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Beicon: </spam>
+                        <spam class="pizza__texto">Beicon,tomate, mozzarella</spam> 8€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Pollo: </spam>
+                        <spam class="pizza__texto">Pollo,tomate, mozzarella</spam> 8€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Carbonara: </spam>
+                        <spam class="pizza__texto">York,beicon,nata, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Romana: </spam>
+                        <spam class="pizza__texto">York,champiñon,nata, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Peperoni: </spam>
+                        <spam class="pizza__texto">York,peperoni,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Emperador: </spam>
+                        <spam class="pizza__texto">York,salchichas,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Roquefort: </spam>
+                        <spam class="pizza__texto">Roquefort,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Barbacoa: </spam>
+                        <spam class="pizza__texto">York,pollo,barbacoa,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Carne: </spam>
+                        <spam class="pizza__texto">York,carne,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Vegetal: </spam>
+                        <spam class="pizza__texto">Champiñon,aceitunas verdes,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Lomo: </spam>
+                        <spam class="pizza__texto">York,lomo adobado,nata, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Tropical: </spam>
+                        <spam class="pizza__texto">York,piña,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">4 quesos: </spam>
+                        <spam class="pizza__texto">Parmesano,roquefort,cheddar,tomate, mozzarella</spam> 8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Serrana: </spam>
+                        <spam class="pizza__texto">Jamón,aceitunas negras,aceite aromático,tomate, mozzarella</spam>
+                        8.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Americana: </spam>
+                        <spam class="pizza__texto">Carne,beicon,salchichas,cebolla,tomate, mozzarella</spam> 9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Centurion: </spam>
+                        <spam class="pizza__texto">York,atún,beicon,nata, mozzarella</spam> 9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Marinera: </spam>
+                        <spam class="pizza__texto">Atún,gambas,tomate, mozzarella</spam> 9€
+                    </li>
+                    <h3>Especiales:</h3>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Mexicana: </spam>
+                        <spam class="pizza__texto">Carne,peperoni,pimientos rojos,salsa picante,tomate, mozzarella
+                        </spam> 9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Argentina: </spam>
+                        <spam class="pizza__texto">York,beicon,salchichas,barbacoa,nata, mozzarella</spam> 9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Alcaudeteña: </spam>
+                        <spam class="pizza__texto">Pollo,tomate natural,beicon,pimientos rojos,tomate, mozzarella</spam>
+                        9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Mediterránea: </spam>
+                        <spam class="pizza__texto">York,jamón,aceitunas verdes,huevo,tomate, mozzarella</spam> 9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Torrecampeña: </spam>
+                        <spam class="pizza__texto">Aceitunas verdes,champiñon,maíz,cebolla,huevo,tomate, mozzarella
+                        </spam> 9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">5 Quesos: </spam>
+                        <spam class="pizza__texto">philadelphia,4 quesos, mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Campesina: </spam>
+                        <spam class="pizza__texto">Pollo,pimientos verdes y rojos,queso de cabra,nata mozzarella</spam>
+                        9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Especial: </spam>
+                        <spam class="pizza__texto">Carne,pollo,beicon,huevo,nata mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Philadelphia: </spam>
+                        <spam class="pizza__texto">Philadelphia,york,beicon,lomo adobado, mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Kebap: </spam>
+                        <spam class="pizza__texto">York,kebap pollo,yogur, mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Anchoas: </spam>
+                        <spam class="pizza__texto">Atún,gambas,anchoas,tomate, mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Ranchera: </spam>
+                        <spam class="pizza__texto">Pollo,peperoni,beicon,cheddar,picante,tomate, mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Texas: </spam>
+                        <spam class="pizza__texto">Beicon crispy,gouda,cheddar,parmesano,cebolla crujiente,tomate,
+                            mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Caprichosa: </spam>
+                        <spam class="pizza__texto">York,pimientos verdes,champiñon,aceitunas negras,tomate, mozzarella
+                        </spam> 9.5€
+                    </li>
+                    <h3>Gourmet:</h3>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Campera: </spam>
+                        <spam class="pizza__texto">Beicon,champiñon,gouda,cebolla,oregano,tomate, mozzarella</spam>9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Diabola: </spam>
+                        <spam class="pizza__texto">Pollo mechado,peperoni,pimientos verdes,yogur, mozzarella</spam>9€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Crispy: </spam>
+                        <spam class="pizza__texto">Beicon crispy,carne,cebolla crujiente,salsa cheddar,barbacoa,
+                            mozzarella</spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Silvestre: </spam>
+                        <spam class="pizza__texto">Lomo de orza,huevos de cordoniz,parmesano,tomate, mozzarella</spam>
+                        9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Rodeo: </spam>
+                        <spam class="pizza__texto">Salsa country,carne,beicon crispy,pollo,barbacoa,mozzarella</spam>
+                        9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Hamburguesa: </spam>
+                        <spam class="pizza__texto">Beicon,hamburguesas,cheddar,cebolla,beicon,huevo,tomate, mozzarella
+                        </spam> 9.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Suprema: </spam>
+                        <spam class="pizza__texto">Carne,beicon,salchichas,kebap,extra queso,huevo,tomate, mozzarella
+                        </spam> 11€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Nevada: </spam>
+                        <spam class="pizza__texto">Philadelphia,champiñon,pollo,tomate natural,queso de cabra,miel de
+                            caña,mozzarella</spam> 11€
+                    </li>
+
+
+
+                </ul>
+                <ul class="contenido__chapatones oculto">
+                    <h4 class="chapatones__titulo">Chapatones</h4>
+                    <h3>Bocadillos:</h3>
+                   
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Lomo: </spam>
+                        <spam class="pizza__texto">Lomo,tomate,lechuga</spam> 5.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Tortilla: </spam>
+                        <spam class="pizza__texto">Tortilla,tomate, lechuga</spam> 5.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Beicon: </spam>
+                        <spam class="pizza__texto">Beicon,tomate, lechuga</spam> 5.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Cesar: </spam>
+                        <spam class="pizza__texto">Lomo adobado, queso,tomate, lechuga</spam> 6€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Hamburguesa: </spam>
+                        <spam class="pizza__texto">Hamburguesas,tomate,lechuga</spam> 6.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Especial: </spam>
+                        <spam class="pizza__texto">Lomo adobado,beicon,huevo,lechuga,tomate</spam> 6.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Centurion: </spam>
+                        <spam class="pizza__texto">Lomo Fresco,beicon,tortilla,lechuga,tomate</spam> 6.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Kebap: </spam>
+                        <spam class="pizza__texto">Kebap,salsa yogur,tomate,lechuga</spam> 6.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Serranito: </spam>
+                        <spam class="pizza__texto">Lomo Fresco,pimientos,jamón,lechuga,tomate</spam> 6.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">De la casa: </spam>
+                        <spam class="pizza__texto">Hamburguesas,lomo adobado,queso,salsa cheddar,lechuga,tomate</spam>
+                        6.5€
+                    </li>
+             </ul>
+              <ul class="contenido__hamburguesas oculto">
+                    <h4 class="chapatones__titulo">Hamburguesas</h4>
+                    
+                    
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Normal: </spam>
+                        <spam class="pizza__texto">lechuga,tomate,cebolla</spam> 3€
+
+                    </li>
+                    <p>Añade lomo,queso,beicon.... por 0.5€</p>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Buey: </spam>
+                        <spam class="pizza__texto">Queso de cabra,salsa bourbon,tomate, lechuga,cebolla</spam> 5.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Ternera: </spam>
+                        <spam class="pizza__texto">Beicon,queso,salsa country,tomate, lechuga,cebolla</spam> 5.5€
+                    </li>
+                    <li class="contenido__producto">
+                        <spam class="producto__pizza">Crispy: </spam>
+                        <spam class="pizza__texto">Beicon,queso cheddar,salsa cheddar, tomate, lechuga,cebolla</spam> 5.5€
+                    </li>
+                    
+             </ul>
+             <ul class="contenido__otros oculto">
+                <h4 class="chapatones__titulo">Otros</h4>
+                <h3>Patatas</h3>
+                
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Racion de patatas:</spam>
+                    <spam class="pizza__texto"></spam> 3€
+
+                </li>
+                
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Patatas Gratinadas: </spam>
+                    <spam class="pizza__texto">mozzarella,beicon crispy</spam> 5.5€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Patatas Centurion: </spam>
+                    <spam class="pizza__texto">Queso cheddar,nata,ingrediente a elegir(beicon crispy,kebap,pollo...)</spam> 6.5€
+                </li>
+                <h3>Rollitos</h3>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Pollo: </spam>
+                    <spam class="pizza__texto">Pollo crujiente,salsa yogur y barbacoa,tomate, lechuga,cebolla</spam> 3.5€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Flauta: </spam>
+                    <spam class="pizza__texto">Kebap de pollo,nata,york,barbacoa,mozzarella</spam> 3.5€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Centurion: </spam>
+                    <spam class="pizza__texto">beicon crujiente,pimientos rojos y verdes,pollo,salsa yogur y barbacoa</spam> 3.5€
+                </li>
+                <h3>Otros:</h3>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Calzones: </spam>
+                    <spam class="pizza__texto">2ingredientes, salsa y mozzarella</spam> 7€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Alitas de Pollo: </spam>
+                    <spam class="pizza__texto">salsa barbacoa. 6u</spam> 5€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Finger: </spam>
+                    <spam class="pizza__texto">Pollo natural rebozado. 6u</spam> 4€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Jalapeños: </spam>
+                    <spam class="pizza__texto">Pimiento verde,queso cheddar. 6u</spam> 4.5€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Combo: </spam>
+                    <spam class="pizza__texto">4 Alitas,4 finger,4 Jalapeños</spam> 9€
+                </li>
+                <li class="contenido__producto">
+                    <spam class="producto__pizza">Panini XXL: </spam>
+                    <spam class="pizza__texto">1 ingrediente,salsa,mozzarella</spam> 3€
+                </li>
+                
+         </ul>
+
+            </section>
+        </div>
+
+</body>
+<script src="/java.js"></script>
+
+</html>
