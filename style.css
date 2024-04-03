@@ -246,13 +246,38 @@ z-index: 1;
     height: 20%;
 }
 .header__titulo{
-    color: var(--color-texto2);
-    text-shadow: 2px 2px 2px rgb(5, 5, 5),5px 3px 2px rgb(250, 247, 247);
+    /* color: var(--color-texto2);
+    
     font-weight: 900;
     font-size: 70px;
     font-style: italic;
     margin: 0 auto;
+    margin-right: 50px; */
+    --minFontSize: 1rem;
+	--maxFontSize: calc(var(--minFontSize) * 8);
+	--scaler: 6vw;
+	font-family: "Moderat", sans-serif;
+	font-weight: 900;
+    color: white;
+	font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+	color: var(--primary);
+	background: url(/centurion/src/assets/img/animaciontexto.jpg);
+	filter: drop-shadow(0.75rem 0 0.75rem black);
+	background-size: auto 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin: 0 auto;
     margin-right: 50px;
+	animation: carmen 8s linear infinite;
+    
+    animation:texto 8s linear infinite;
+}
+@keyframes texto{
+    0%{
+background-position: center 0;
+    }100%{
+        background-position: center 200%;
+    }
 }
 .header__titulo--1{
     margin-right: 25%;

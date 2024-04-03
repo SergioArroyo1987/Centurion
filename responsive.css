@@ -1,3 +1,10 @@
+@media(max-width:1200px){
+    .header__titulo1 {
+        
+        margin-top: -13%;
+        margin-left: 7%;
+    }
+}
 @media(max-width:800px){
     .layout{
         display: flex;
@@ -24,8 +31,8 @@
     }
     .logo__imagen{
         display: flex;
-    
-        max-height: 124px;
+    width: 70%;
+        height: 49%;
         
     }
     .menu__lista,.menu__footer{
@@ -45,7 +52,7 @@
         color:orangered;
         text-align: right;
         position: absolute;
-        margin-left: 131%;
+        margin-left: 125%;
     }
     .fa-x{
         opacity: 0;
@@ -55,7 +62,7 @@
     .historia__quien{
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        height: 70vh;
     }
     
     .historia__texto,.historia__titulo,.quien__imagen{
@@ -82,9 +89,10 @@
    }
    .quien__imagen--uno,.quien__imagen--dos,.quien__imagen--tres{
     height: 100%;
+    background-size: contain;
    }
    .menu__lista--oculto{
-    display: block;
+    display: none;
     opacity: 0;
     right: -100%;
 }
@@ -102,12 +110,40 @@
     position: absolute;
     z-index: 99;
 }
+.contenido__pizza, .contenido__chapatones, .contenido__hamburguesas, .contenido__otros {
+    text-align: left;
+    z-index: 1;
+}
+.carta__imagen{
+    opacity: 0.5;
+}
+.header__titulo1{
+    display: none;
+}
+.header__titulo2{
+    display: none;
+}
+.header__titulo--1 {
+    margin-right: 70%;
+   
   
+}
+.contenido__articulos{
+    flex-basis: 100%;
 }
 @media(max-width:470px){
     .nav__link{
         width:90px ;
         height:90px;
+    }
+    .fa-bars, .fa-x {
+        
+        margin-left: 115%;
+    }
+    .contenido__producto {
+        
+        width: 94%;
+      
     }
 }
 @media(max-width:400px){
