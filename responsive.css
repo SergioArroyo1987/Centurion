@@ -56,7 +56,7 @@
     }
     .fa-x{
         opacity: 0;
-        z-index: 23;
+        z-index: 999;
     }
     
     .historia__quien{
@@ -130,6 +130,11 @@
 }
 .contenido__articulos{
     flex-basis: 100%;
+}
+.fa-phone{
+    color:#07f907;
+    margin-left: 58%;
+    position: absolute;
 }
 @media(max-width:470px){
     .nav__link{

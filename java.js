@@ -23,6 +23,11 @@ function mostrar(categoria){
    
     
 }
+document.getElementById("telefono").addEventListener("click",function(){
+    var numero="777777777";
+    var url="tel:"+numero;
+    window.location.href=url;
+})
 
 document.addEventListener("DOMContentLoaded",(event)=>{
     let button=document.querySelector(".layout__hamburguesa");
