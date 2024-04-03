@@ -30,7 +30,7 @@ document.getElementById("telefono").addEventListener("click",function(){
 })
 
 document.addEventListener("DOMContentLoaded",(event)=>{
-    let button=document.querySelector(".layout__hamburguesa");
+    let button=document.querySelector(".hamburguesa__click");
     console.log(button);
     let aside=document.querySelector(".menu__lista");
     let bars=document.querySelector(".fa-bars");
