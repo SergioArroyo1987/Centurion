@@ -148,6 +148,19 @@
     height:40px;
     margin-right: -20%;
 }
+.imagen{
+    
+    height: 50vh;
+}
+.carousel {
+    
+    margin-top: 78%;
+}
+.carousel-control-next, .carousel-control-prev {
+    color: #0c0c0c;
+    text-align: center;
+    top: 450px;
+  }
 @media(max-width:470px){
     .nav__link{
         width:90px ;
