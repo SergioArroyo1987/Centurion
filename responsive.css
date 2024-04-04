@@ -41,6 +41,7 @@
     .layout__home{
         width: 100%;
         height: calc(100vh - 15vh);
+        background-color: black;
     }
     .layout__hamburguesa{
         display: block;
@@ -154,12 +155,12 @@
 }
 .carousel {
     
-    margin-top: 58%;
+    margin-top: 38%;
 }
 .carousel-control-next, .carousel-control-prev {
     color: #0c0c0c;
     text-align: center;
-    top: 450px;
+    top: 350px;
   }
 @media(max-width:470px){
     .nav__link{
