@@ -42,6 +42,7 @@
         width: 100%;
         height: calc(100vh - 15vh);
         background-color: black;
+        overflow: hidden !important;
     }
     .layout__hamburguesa{
         display: block;
@@ -161,6 +162,24 @@
     color: #0c0c0c;
     text-align: center;
     top: 350px;
+  }
+  /*SWIPPER*/
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
   }
 @media(max-width:470px){
     .nav__link{

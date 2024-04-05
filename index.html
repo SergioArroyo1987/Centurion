@@ -2,107 +2,174 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer ></script>
-<link rel="stylesheet" href="/centurion/src/assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>   
-<link rel="stylesheet" href="/responsive.css" /> 
-<title>Pizzeria Centurion Torredelcampo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
 
+  <link rel="stylesheet" href="/responsive.css" />
+  <link rel="stylesheet" href="/centurion/src/assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Pizzeria Centurion Torredelcampo</title>
+
+  <style>
+    
+
+    .swiper {
+    width: 80%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+     
+    }
+    .swiper-slide img{
+      width: 100%;
+      height:100%;
+    }
+
+    .swiper-slide:nth-child(1n) {
+      background-color: rgb(206, 17, 17);
+    }
+
+    .swiper-slide:nth-child(2n) {
+      background-color: rgb(0, 140, 255);
+    }
+
+    .swiper-slide:nth-child(3n) {
+      background-color: rgb(10, 184, 111);
+    }
+
+    .swiper-slide:nth-child(4n) {
+      background-color: rgb(211, 122, 7);
+    }
+
+    .swiper-slide:nth-child(5n) {
+      background-color: rgb(118, 163, 12);
+    }
+
+    .swiper-slide:nth-child(6n) {
+      background-color: rgb(180, 10, 47);
+    }
+
+    .swiper-slide:nth-child(7n) {
+      background-color: rgb(35, 99, 19);
+    }
+
+    .swiper-slide:nth-child(8n) {
+      background-color: rgb(0, 68, 255);
+    }
+
+    .swiper-slide:nth-child(9n) {
+      background-color: rgb(218, 12, 218);
+    }
+
+    .swiper-slide:nth-child(10n) {
+      background-color: rgb(54, 94, 77);
+    }
+  </style>
 </head>
 
 <body>
-    <div class="layout">
-        <div class="layout__menu ">
+  <div class="layout">
+    <div class="layout__menu ">
             
-            <ul class="menu__lista menu__lista--oculto">
-                <li class="menu__opciones">
-                    <a href="index.html" class="menu__link menu__activo">Inicio</a>
-                    <div class="menu__linea">
-                    </div>
-                </li>
-                <li class="menu__opciones">
-                    <a href="historia.html" class="menu__link">Historia</a>
-                    <div class="menu__linea">
-                    </div>
-                </li>
-                <li class="menu__opciones">
-                    <a href="/noticias.html" class="menu__link ">Noticias</a>
-                    <div class="menu__linea">
-                    </div>
-                </li>
-                
-                <li class="menu__opciones">
-                    <a href="/carta.html" class="menu__link">Carta</a>
-                    <div class="menu__linea">
-                    </div>
-                </li>
-                
-                <li class="menu__opciones">
-                    <a href="#" class="menu__link">Contacto</a>
-                    <div class="menu__linea">
-                    </div>
-                </li>
-                <footer class="menu__footer">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                </footer>
-                
-            </ul>
-            
-            <div class="menu__logo">
-                <img src="/centurion/src/assets/img/logos.jpg" class="logo__imagen" alt="">
-            </div>
-         
-            
-
-            </footer>
-            <div class="layout__hamburguesa">
-                <i class="fa-solid fa-phone" id="telefono"></i>
-                <a href="/centurion/src/assets/img/folleto (1).jpeg" download="" class="hamburguesa__link"><img class="hamburguesa__img" src="/centurion/src/assets/img/folleto (1).jpeg" alt=""></a>
-                <div class="hamburguesa__click">
-                <i class="fa-solid fa-bars"></i>
-                <i class="fa-solid fa-x"></i>
-            </div>
-            </div>
-        </div>
-       
-        
-        <div class="layout__home">
-            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="/centurion/src/assets/img/portada.jpg" class="d-block w-100 imagen" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/centurion/src/assets/img/crispybordes.jpg" class="d-block w-100 imagen" alt="...">
-                </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/centurion/src/assets/img/campera1.jpg" class="d-block w-100  imagen" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="/centurion/src/assets/img/chapaton.jpg" class="d-block w-100  imagen" alt="...">
-                </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev posicion" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+      <ul class="menu__lista menu__lista--oculto">
+          <li class="menu__opciones">
+              <a href="index.html" class="menu__link ">Inicio</a>
+              <div class="menu__linea">
               </div>
-                
-            </div>
-        </div>
-    </div>
+          </li>
+          <li class="menu__opciones">
+              <a href="historia.html" class="menu__link">Historia</a>
+              <div class="menu__linea">
+              </div>
+          </li>
+          <li class="menu__opciones">
+              <a href="/noticias.html" class="menu__link ">Noticias</a>
+              <div class="menu__linea">
+              </div>
+          </li>
+          
+          <li class="menu__opciones">
+              <a href="/carta.html" class="menu__link menu__activo">Carta</a>
+              <div class="menu__linea">
+              </div>
+          </li>
+          
+          <li class="menu__opciones">
+              <a href="#" class="menu__link">Contacto</a>
+              <div class="menu__linea">
+              </div>
+          </li>
+          <footer class="menu__footer">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+          </footer>
+          
+      </ul>
+      
+      <div class="menu__logo">
+          <img src="/centurion/src/assets/img/logos.jpg" class="logo__imagen" alt="">
+      </div>
+   
+      
 
+      
+      <div class="layout__hamburguesa">
+          <i class="fa-solid fa-phone" id="telefono"></i>
+          <a href="/centurion/src/assets/img/folleto (1).jpeg" download="" class="hamburguesa__link"><img class="hamburguesa__img" src="/centurion/src/assets/img/folleto (1).jpeg" alt=""></a>
+          <div class="hamburguesa__click">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-x"></i>
+      </div>
+      </div>
+  </div>
+
+
+    <div class="layout__home">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/portada.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/crispybordes.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/campera.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/alitas.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/flautas.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/chapaton.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/hamburguesabuey.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/helado1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/centurion/src/assets/img/helados.jpg" alt=""></div>
+        </div>
+      </div>
+      
+        
+
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    
+    
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+      autoplay:{
+        delay:4000,
+        disableOnInteraction:false,
+      }
+    });
+  
+  </script>
 </body>
-<script src="/java.js"></script>
+<script type="module" src="/java.js"></script>
+
 
 </html>
