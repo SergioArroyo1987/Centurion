@@ -140,6 +140,7 @@
     color:#07f907;
     margin-left: 65%;
     position: absolute;
+    margin-top: 20px;
 }
 .fa-file-archive{
     color: orangered;
@@ -149,6 +150,7 @@
     width: 40px;
     height:40px;
     margin-right: -20%;
+    margin-top: 20px;
 }
 .imagen{
     
