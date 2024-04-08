@@ -24,7 +24,7 @@ function mostrar(categoria){
     
 }
 document.getElementById("telefono").addEventListener("click",function(){
-    var numero="777777777";
+    var numero="629772756";
     var url="tel:"+numero;
     window.location.href=url;
 })
@@ -35,8 +35,9 @@ document.addEventListener("DOMContentLoaded",(event)=>{
     let aside=document.querySelector(".menu__lista");
     let bars=document.querySelector(".fa-bars");
     let x=document.querySelector(".fa-x");
+    let phone=document.querySelector(".fa-phone");
     button.addEventListener("click",(event)=>{
-        console.log("Sergio");
+        
         let visible=document.querySelector(".menu__lista--visible");
         console.log(visible);
         if(!visible){
@@ -44,12 +45,14 @@ document.addEventListener("DOMContentLoaded",(event)=>{
             aside.classList.remove("menu__lista--oculto");
             aside.classList.add("menu__lista--visible");
             bars.style.opacity=0;
+            phone.style.opacity=0;
             x.style.opacity=1;
         }else{
             console.log("Hola");
             aside.classList.remove("menu__lista--visible");
             aside.classList.add("menu__lista--oculto");
             bars.style.opacity=1;
+            phone.style.opacity=1;
             x.style.opacity=0;
 
         }

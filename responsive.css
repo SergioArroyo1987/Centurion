@@ -63,6 +63,9 @@
         opacity: 0;
         z-index: 999;
     }
+    .hamburguesa__click{
+        z-index: 999;
+    }
     
     .historia__quien{
         flex-direction: column;
@@ -136,6 +139,9 @@
 .contenido__articulos{
     flex-basis: 100%;
 }
+.fa-x{
+    z-index: 12;
+}
 .fa-phone{
     color:#07f907;
     margin-left: 65%;
@@ -145,6 +151,15 @@
 .fa-file-archive{
     color: orangered;
     margin-right: -19%;
+}
+.hamburguesa__click::before {
+    content: "Carta";
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -7px;
 }
 .hamburguesa__img{
     width: 40px;
@@ -209,4 +224,4 @@
     .carta__menu{
         height:15vh;
     }
-}
+}}
