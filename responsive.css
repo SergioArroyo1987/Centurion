@@ -146,10 +146,10 @@
     color:#07f907;
     margin-left: 65%;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 2px;
 }
 .fa-file-archive{
-    color: orangered;
+    color: white;
     margin-right: -19%;
 }
 .hamburguesa__click::before {
