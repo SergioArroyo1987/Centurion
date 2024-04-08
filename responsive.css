@@ -199,6 +199,9 @@
     width: 100%;
   }
 @media(max-width:470px){
+    .header__titulo {
+        --minFontSize: 4rem;
+      }
     .nav__link{
         width:90px ;
         height:90px;
