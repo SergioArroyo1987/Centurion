@@ -146,7 +146,7 @@
     color:#07f907;
     margin-left: 65%;
     position: absolute;
-    margin-top: 2px;
+    margin-top: 15px;
 }
 .fa-file-archive{
     color: white;
@@ -210,13 +210,14 @@
         
     }
     .nav__link--hamburguesa::after{
-        content: "Hamburguesa";
+        content: "Burguer";
         color:white;
         
     }
-    .nav__link--chapatones::otros{
+    .nav__link--otros::after{
         content: "Otros";
         color:white;
+        margin-top: -100px;
         
     }
     
