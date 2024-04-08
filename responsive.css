@@ -199,9 +199,28 @@
     width: 100%;
   }
 @media(max-width:470px){
-    .header__titulo {
-        --minFontSize: 4rem;
-      }
+    .nav__link--pizza::after{
+        content: "Pizzas";
+        color:white;
+
+    }
+    .nav__link--chapatones::after{
+        content: "Bocadillos";
+        color:white;
+        
+    }
+    .nav__link--hamburguesa::after{
+        content: "Hamburguesa";
+        color:white;
+        
+    }
+    .nav__link--chapatones::otros{
+        content: "Otros";
+        color:white;
+        
+    }
+    
+    
     .nav__link{
         width:90px ;
         height:90px;
@@ -216,7 +235,7 @@
       
     }
     .header__titulo {
-        --minFontSize: 3rem;
+        --minFontSize: 4rem;
     }
 }
 @media(max-width:400px){
