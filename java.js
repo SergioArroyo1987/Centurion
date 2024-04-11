@@ -58,5 +58,12 @@ document.addEventListener("DOMContentLoaded",(event)=>{
         }
     })
 });
+//Banner mostrar a los 5 segundos de cargar página
+window.addEventListener('load',function(){
+    setTimeout(function(){
+        window.open("/centurion/src/assets/Videos/pesto.mp4","_parent","width=screen.width/2","height=50px");
+        
+    },10000);
+})
 
 
