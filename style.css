@@ -12,10 +12,7 @@
     
 }
 
-body{
-    
 
-}
 .menu__linea{
     width: 50%;
     height: 1px;
@@ -470,3 +467,30 @@ background-position: center 0;
 .oculto{
     display: none;
 }
+.pizza__texto {
+    font-family: "poppins";
+  }
+  .home__anuncio{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 40%;
+    z-index: 9;
+  }
+  video{
+    width: 100%;
+
+    margin-top: 20px;
+    
+  }
+  
+    .anuncio__boton {
+        position: absolute;
+        display: none;
+        z-index: 0;
+        font-size: 30px;
+        color: #e00;
+        margin-left: 90%;
+        margin-top: 5%;
+      }
+  

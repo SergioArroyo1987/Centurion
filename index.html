@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/centurion/src/assets/img/logoblanco.jpg"/>
   <link rel="stylesheet" href="style.css" />
 
   <link rel="stylesheet" href="/responsive.css" />
@@ -139,6 +140,14 @@
 
 
     <div class="layout__home">
+      <div class="home__anuncio">
+        <button class="anuncio__boton">X</button>
+        <video class="principal__contenido" controls autoplay>
+          <source src="/centurion/src/assets/Videos/pesto.mp4" type="video/mp4">
+          Tu navegador no soporta HTML5 video.
+        </video>
+        
+      </div>
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="/centurion/src/assets/img/portada.jpg" alt=""></div>
@@ -174,6 +183,7 @@
   </script>
 </body>
 <script type="module" src="/java.js"></script>
+<script type="module" src="/anuncio.js"></script>
 
 
 </html>

@@ -138,7 +138,7 @@
   
 }
 .contenido__articulos{
-    flex-basis: 100%;
+    flex-basis: 96%;
 }
 .fa-x{
     z-index: 12;
@@ -234,6 +234,7 @@
     .contenido__producto {
         
         width: 94%;
+        margin-bottom: 15px;
       
     }
     .header__titulo {
@@ -241,6 +242,18 @@
     }
 }
 @media(max-width:400px){
+    .menu__nav{
+        width: 98%;
+        padding: 0px;
+    }
+    .producto__pizza {
+        color: var(--color-texto2);
+        text-transform: uppercase;
+        text-decoration-line:none;
+        font-size: 20px;
+        
+        font-weight: 780;
+      }
     .nav__link {
         width: 84px;
         height: 75px;

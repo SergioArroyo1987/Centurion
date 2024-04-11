@@ -41,14 +41,14 @@ document.addEventListener("DOMContentLoaded",(event)=>{
         let visible=document.querySelector(".menu__lista--visible");
         console.log(visible);
         if(!visible){
-            console.log("Hola1");
+           
             aside.classList.remove("menu__lista--oculto");
             aside.classList.add("menu__lista--visible");
             bars.style.opacity=0;
             phone.style.opacity=0;
             x.style.opacity=1;
         }else{
-            console.log("Hola");
+            
             aside.classList.remove("menu__lista--visible");
             aside.classList.add("menu__lista--oculto");
             bars.style.opacity=1;
@@ -59,11 +59,6 @@ document.addEventListener("DOMContentLoaded",(event)=>{
     })
 });
 //Banner mostrar a los 5 segundos de cargar página
-window.addEventListener('load',function(){
-    setTimeout(function(){
-        window.open("/centurion/src/assets/Videos/pesto.mp4","_blank");
-        
-    },10000);
-})
+
 
 
