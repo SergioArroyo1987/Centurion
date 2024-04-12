@@ -454,6 +454,9 @@ background-position: center 0;
     margin-bottom: 5px;
   
 }
+.home__portada{
+    display: none;
+}
 .producto__pizza{
     color: var(--color-texto2);
     text-transform: uppercase;

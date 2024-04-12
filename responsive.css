@@ -31,7 +31,7 @@
     }
     .logo__imagen{
         display: flex;
-    width: 70%;
+    width: 110%;
         height: 49%;
         
     }
@@ -40,7 +40,8 @@
     }
     .layout__home{
         width: 100%;
-        height: calc(100vh - 15vh);
+        height: auto;
+        overflow-y: scroll;
         background-color: black;
         overflow: hidden !important;
     }
@@ -153,15 +154,7 @@
     color: white;
     margin-right: -19%;
 }
-.hamburguesa__click::before {
-    content: "Carta";
-    color: white;
-    text-align: right;
-    font-size: 15px;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: -7px;
-}
+
 .hamburguesa__img{
     width: 40px;
     height:40px;
@@ -199,6 +192,54 @@
     display: block;
     width: 100%;
   }
+  .home__portada{
+    display: block;
+    width: 95%;
+    height: 30%;
+    margin: 8px;
+  }
+  .portada__imagen{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation: "portada_imagen" 6 10s;
+
+  }
+  @keyframes portada_imagen {
+    to{
+        filter: grayscale(0);
+    }from{
+        filter: grayscale(100);
+    }
+
+    
+  }
+  .portada__titulo{
+    display: block;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -50%;
+    text-shadow: -2px 2px 2px orangered;
+    font-size: 33px;
+    font-weight: 900;
+    font-family: cursive;
+    transition: all 500ms ease-in-out;
+    animation: "titulo" infinite 10s;
+  }
+  @keyframes titulo {
+    5%{
+        transform: scale(1,1);
+    }
+    25%{
+        transform: scale(0,0);
+    } 50%{
+        transform: scale(1,1);
+    }
+    75%{
+        transform: scale(0,0);
+    }
+    
+  }
 @media(max-width:470px){
     .nav__link--pizza::after{
         content: "Pizzas";
@@ -229,7 +270,10 @@
     }
     .fa-bars, .fa-x {
         
-        margin-left: 115%;
+        
+            margin-left: 115%;
+            margin-top: 10%;
+          
     }
     .contenido__producto {
         
