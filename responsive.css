@@ -283,6 +283,7 @@
     }
     .header__titulo {
         --minFontSize: 4rem;
+        width: 100%;
     }
 }
 @media(max-width:400px){
