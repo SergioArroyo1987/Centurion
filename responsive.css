@@ -283,7 +283,7 @@
     }
     .portada__oferta{
         width: 100%;
-        height: 30vh;
+        height: 25vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -295,7 +295,7 @@
     }
     swiper {
         
-        margin-top: 40%;
+        margin-top:52%;
     }
 }
 @media(max-width:400px){
