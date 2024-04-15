@@ -43,7 +43,7 @@
         height: auto;
         overflow-y: scroll;
         background-color: black;
-        overflow: hidden !important;
+        
     }
     .layout__hamburguesa{
         display: block;
@@ -165,15 +165,7 @@
     
     height: 60vh;
 }
-.carousel {
-    
-    margin-top: 38%;
-}
-.carousel-control-next, .carousel-control-prev {
-    color: #0c0c0c;
-    text-align: center;
-    top: 350px;
-  }
+
   /*SWIPPER*/
   .swiper {
     width: 100%;
@@ -191,6 +183,10 @@
   .swiper-slide img {
     display: block;
     width: 100%;
+  }
+  .swiper-wrapper{
+    width: 80%;
+    height: 80%;
   }
   .home__portada{
     display: block;
@@ -283,7 +279,23 @@
     }
     .header__titulo {
         --minFontSize: 4rem;
+        
+    }
+    .portada__oferta{
         width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+    .oferta__imagen{
+        width: 100%;
+        flex-basis: 30%;
+    }
+    swiper {
+        
+        margin-top: 40%;
     }
 }
 @media(max-width:400px){
