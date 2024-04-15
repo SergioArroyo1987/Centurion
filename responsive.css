@@ -26,7 +26,7 @@
     }
     .mapa{
         
-            width: 91%;
+            width: 95%;
             height: 30%;
             
             margin: 2%;
@@ -133,7 +133,7 @@
     z-index: 1;
     width: 100%;
 }
-.contenido__chapatones,.contenido__otros,.contenido__hamburguesas{
+.contenido__chapatones,.contenido__otros{
     margin-top: 70%;
 }
 .carta__imagen{
