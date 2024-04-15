@@ -133,7 +133,7 @@
     z-index: 1;
     width: 100%;
 }
-.contenido__chapatones,.contenido__otros{
+.contenido__chapatones,.contenido__otros,.contenido__hamburguesas{
     margin-top: 70%;
 }
 .carta__imagen{
@@ -291,6 +291,7 @@
     }
     .header__titulo {
         --minFontSize: 4rem;
+        margin-top: 3%;
         
     }
     .portada__oferta{
