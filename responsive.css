@@ -24,6 +24,15 @@
        
         
     }
+    .mapa{
+        
+            width: 91%;
+            height: 30%;
+            
+            margin: 2%;
+              
+            margin-top: 17%;
+    }
     .menu__logo{
         background-size: cover;
         background-repeat: no-repeat;
@@ -123,6 +132,9 @@
     text-align: left;
     z-index: 1;
     width: 100%;
+}
+.contenido__chapatones,.contenido__otros{
+    margin-top: 70%;
 }
 .carta__imagen{
     opacity: 0.5;
@@ -242,7 +254,7 @@
         color:white;
 
     }
-    .nav__link--chapatones::after{
+    .nav__link--chapatones::before{
         content: "Bocadillos";
         color:white;
         
@@ -255,7 +267,7 @@
     .nav__link--otros::after{
         content: "Otros";
         color:white;
-        margin-top: -100px;
+        
         
     }
     
@@ -296,7 +308,7 @@
     .swiper {
         width: 70%;
         height: 60%;
-        margin-top: 48% !important;
+        margin-top: 58% !important;
       }
 }
 @media(max-width:400px){
