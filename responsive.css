@@ -133,9 +133,7 @@
     z-index: 1;
     width: 100%;
 }
-.contenido__chapatones,.contenido__otros{
-    margin-top: 70%;
-}
+
 .carta__imagen{
     opacity: 0.5;
 }
@@ -248,7 +246,7 @@
     }
     
   }
-@media(max-width:470px){
+@media(max-width:570px){
     .nav__link--pizza::after{
         content: "Pizzas";
         color:white;
@@ -325,6 +323,9 @@
         
         font-weight: 780;
       }
+      .contenido__chapatones,.contenido__otros{
+        margin-top: 70%;
+    }
     .nav__link {
         width: 84px;
         height: 75px;
