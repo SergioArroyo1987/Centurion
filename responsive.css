@@ -24,10 +24,11 @@
        
         
     }
+    
     .mapa{
         
             width: 95%;
-            height: 30%;
+            height: 50%;
             
             margin: 2%;
               
@@ -107,7 +108,9 @@
    }
    .quien__imagen--uno,.quien__imagen--dos,.quien__imagen--tres{
     height: 100%;
-    background-size: contain;
+    
+background-size: cover;
+width: 90%;
    }
    .menu__lista--oculto{
     display: none;
@@ -225,7 +228,12 @@
     position: absolute;
     margin-left: 40%;
     margin-top: -50%;
-    text-shadow: -2px 2px 2px orangered;
+    text-shadow: -2px 4px 4px orangered,
+    -2px 4px 4px orangered,
+    -2px 4px 4px orangered,
+    -2px 4px 4px orangered,
+    -2px 4px 4px orangered,
+    -2px 4px 4px rgb(12, 12, 12);
     font-size: 33px;
     font-weight: 900;
     font-family: cursive;
@@ -246,7 +254,50 @@
     }
     
   }
+  .portada__boton{
+    position:absolute;
+    width: 100%;
+    height: 25%;
+    top: 85%;
+    
+    text-align: center;
+font-size: 33px;
+z-index: 2;
+
+
+  }
+  .boton__boton{
+    width: 30%;
+    height: 35%;
+    background-color: orangered;
+    
+    box-shadow: 2px 2px 2px white;
+    z-index: 1;
+  }
+  .oferta__imagen{
+    transition: all 500ms ease-in-out ;
+    
+  }
+  
+  .oferta__imagen--1:hover{
+    transform: scale(2,2);
+    translate: 50%;
+    z-index: 2;
+  }
+  .oferta__imagen--2:hover{
+    transform: scale(2,2);
+    z-index: 2;
+    
+  }
+  .oferta__imagen--3:hover{
+    transform: scale(2,2);
+    translate: -50%;
+    z-index: 2;
+  }
 @media(max-width:570px){
+    #texto{
+        margin-top: 14%;
+    }
     .nav__link--pizza::after{
         content: "Pizzas";
         color:white;
@@ -289,7 +340,7 @@
     }
     .header__titulo {
         --minFontSize: 4rem;
-        margin-top: 3%;
+        margin-top: 1%;
         
     }
     .portada__oferta{
@@ -300,17 +351,66 @@
         justify-content: space-around;
         margin-top: 5%;
     }
+    
     .oferta__imagen{
         width: 100%;
         flex-basis: 30%;
+        height: 230px;
     }
     .swiper {
         width: 70%;
         height: 60%;
         margin-top: 58% !important;
       }
+      .portada__titulo{
+        margin-left: 40%;
+        margin-top: -26%;
+      }
+}
+@media (max-width:515px){
+    .swiper{
+        margin-top: 60% !important;
+    }
+    .oferta__imagen--1:hover{
+        transform: scale(1.4,1.4);
+        translate: 50%;
+        
+      }
+      .oferta__imagen--2:hover{
+        transform: scale(1.4,1.4);
+        
+        
+      }
+      .oferta__imagen--3:hover{
+        transform: scale(1.4,1.4);
+        translate: -50%;
+        
+      }
+}
+@media (max-width:480px) {
+    .swiper{
+        height: 70%;
+        margin-top: 70% !important;
+    }
+    
+    #texto {
+      margin-top: 17%;
+      padding: 0px 10px;
+    }
+    
 }
 @media(max-width:400px){
+    .oferta__imagen{
+        height: 200px;
+    }
+    .portada__titulo {
+        margin-left: 4%;
+        margin-top: -38%;
+      }
+      .swiper{
+        
+        margin-top: 80% !important;
+    }
     .menu__nav{
         width: 98%;
         padding: 0px;
@@ -323,7 +423,7 @@
         
         font-weight: 780;
       }
-      .contenido__chapatones,.contenido__otros{
+      .contenido__chapatones,.contenido__otros,.contenido__hamburguesas{
         margin-top: 70%;
     }
     .nav__link {
