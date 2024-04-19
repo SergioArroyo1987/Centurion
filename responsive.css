@@ -448,3 +448,9 @@ z-index: 2;
         margin-top: 100% !important;
     }
 }
+@media (max-width:270px){
+    .swiper{
+        
+        margin-top: 120% !important;
+    }
+}
