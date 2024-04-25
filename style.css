@@ -27,6 +27,7 @@
     flex-direction: row;
     width: 100%;
     height: 100vh;
+    background-color: var(--color-fondo);
 }
 .layout__menu{
     display: flex;
@@ -496,4 +497,86 @@ background-position: center 0;
         margin-left: 90%;
         margin-top: 5%;
       }
+  /*Estilos para pagina New*/
+  .layout__new{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    width: 100%;
+    min-height: 100%;
+    margin-top: 5%;
+
+  }
+  .new__contenido{
+    flex-basis: 45%;
+    width: 40%;
+    height: 40%;
+    background-image: url(/centurion/src/assets/img/prueba3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    
+    animation:fotos 40s 1;
+    
+    
+  }
+  .new__ingredientes{
+    flex-basis: 22%;
+    margin-left: 5%;
+    font-size: 30px;
+    
+    
+  }
+  .new__precio{
+    flex-basis: 20%;
+    margin-left: 5%;
+  }
+  .new__despegable{
+    text-decoration:underline;
+    font-family: "poppins";
+    transition: all 300ms ease-in-out;
+    
+    
+  }
   
+ 
+  .lista__ingredientes{
+    
+    color: yellow;
+    list-style: circle;
+    transition: all 300ms ease-in-out;
+    
+  }
+  
+  .ingredientes__despegable{
+    text-decoration: underline;
+  }
+  .precio__texto{
+    font-weight: bold;
+    font-size: 125px;
+    text-shadow: 5px 5px 2px orangered,
+    5px 5px 2px orangered,
+    5px 5px 2px orangered,
+    5px 5px 2px orangered,
+    5px 5px 2px orangered,
+    5px 5px 2px orangered;
+  }
+  
+  @keyframes fotos{
+    0%{
+        background-image: url(/centurion/src/assets/img/prueba1.jpg);
+    }
+    35%{
+        background-image: url(/centurion/src/assets/img/prueba2.jpg);
+
+    }75%{
+        background-image: url(/centurion/src/assets/img/prueba3.jpg);
+    }
+  }
+  .new__titulo{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+ 

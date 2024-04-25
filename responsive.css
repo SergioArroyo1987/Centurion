@@ -392,6 +392,27 @@ z-index: 2;
         height: 70%;
         margin-top: 70% !important;
     }
+    .ingredientes__despegable {
+        margin-left: -7%;
+      }
+      .despegable__lista {
+        font-size: 70%;
+      }
+      .new__contenido {
+        margin-top: 1%;
+        width: 100px;
+        flex-basis: 50%;
+        height: 47%;
+      }
+      .new__precio {
+        position: absolute;
+        margin-top: 5%;
+        margin: lef;
+        margin-left: 21%;
+      }
+      new__titulo {
+        font-family: "poppins";
+      }
     
     #texto {
       margin-top: 17%;
@@ -411,6 +432,10 @@ z-index: 2;
         
         margin-top: 80% !important;
     }
+    .ingredientes__despegable {
+        
+        font-size: 80%;
+      }
     .menu__nav{
         width: 98%;
         padding: 0px;
