@@ -506,6 +506,7 @@ background-position: center 0;
     width: 100%;
     min-height: 100%;
     margin-top: 5%;
+    background-color: black;
 
   }
   .new__contenido{
@@ -514,7 +515,7 @@ background-position: center 0;
     height: 40%;
     background-image: url(/centurion/src/assets/img/prueba3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-radius: 20px;
     
     animation:fotos 40s 1;

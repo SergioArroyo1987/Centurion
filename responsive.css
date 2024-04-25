@@ -399,10 +399,13 @@ z-index: 2;
         font-size: 70%;
       }
       .new__contenido {
-        margin-top: 1%;
+        
         width: 100px;
         flex-basis: 50%;
-        height: 47%;
+        background-size: contain;
+       
+        height: 147px;
+        background-position: center;
       }
       .new__precio {
         position: absolute;
@@ -435,6 +438,7 @@ z-index: 2;
     .ingredientes__despegable {
         
         font-size: 80%;
+        margin-top: -59%;
       }
     .menu__nav{
         width: 98%;
