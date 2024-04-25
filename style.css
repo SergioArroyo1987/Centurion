@@ -583,7 +583,7 @@ video {
     background-size: contain;
     border-radius: 20px;
 
-    animation: fotos 2 0s 1;
+    animation: fotos 20s 1;
 
 
 }
@@ -642,9 +642,29 @@ video {
     transform: translateY(0);
     opacity: 1;
 }
-.lista__ingredientes:nth-child(3) {
-    color: red;
+.lista__ingredientes:nth-child(1) {
+    
     transition-delay: 1s; /* Cambia el valor según el retraso deseado */
+}
+.lista__ingredientes:nth-child(2) {
+    
+    transition-delay: 2s; /* Cambia el valor según el retraso deseado */
+}
+.lista__ingredientes:nth-child(3) {
+    
+    transition-delay: 3s; /* Cambia el valor según el retraso deseado */
+}
+.lista__ingredientes:nth-child(4) {
+    
+    transition-delay: 4s; /* Cambia el valor según el retraso deseado */
+}
+.lista__ingredientes:nth-child(5) {
+    
+    transition-delay: 5s; /* Cambia el valor según el retraso deseado */
+}
+.lista__ingredientes:nth-child(6) {
+    
+    transition-delay: 6s; /* Cambia el valor según el retraso deseado */
 }
 .precio__texto {
     font-weight: bold;
