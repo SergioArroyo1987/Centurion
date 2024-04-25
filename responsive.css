@@ -394,17 +394,18 @@ z-index: 2;
     }
     .ingredientes__despegable {
         margin-left: -7%;
+        font-size: 100%;
       }
       .despegable__lista {
         font-size: 70%;
       }
       .new__contenido {
         
-        width: 100px;
-        flex-basis: 50%;
+        width: 100%;
+        flex-basis: 47%;
         background-size: contain;
        
-        height: 147px;
+        
         background-position: center;
       }
       .new__precio {
@@ -423,6 +424,18 @@ z-index: 2;
     }
     
 }
+@media (max-width:470px) {
+    .ingredientes__despegable {
+        
+        font-size: 95%;
+      }
+}
+@media (max-width:440px) {
+    .ingredientes__despegable {
+        
+        font-size: 87%;
+      }
+}
 @media(max-width:400px){
     .oferta__imagen{
         height: 200px;
@@ -438,7 +451,7 @@ z-index: 2;
     .ingredientes__despegable {
         
         font-size: 80%;
-        margin-top: -59%;
+      
       }
     .menu__nav{
         width: 98%;
