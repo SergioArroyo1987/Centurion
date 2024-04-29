@@ -401,12 +401,14 @@ z-index: 2;
       }
       .new__contenido {
         
-        width: 100%;
-        flex-basis: 47%;
-        background-size: contain;
-       
-        
+        width: 48%;
+        flex-basis: 48%;
+        background-size: cover;
         background-position: center;
+        height: 145px;
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 49%;
       }
       .new__precio {
         position: absolute;
@@ -428,6 +430,7 @@ z-index: 2;
     .ingredientes__despegable {
         
         font-size: 95%;
+        margin-top: 64%;
       }
 }
 @media (max-width:440px) {

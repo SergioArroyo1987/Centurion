@@ -583,7 +583,7 @@ video {
     background-size: contain;
     border-radius: 20px;
 
-    animation: fotos 20s 1;
+    animation: fotos 20s infinite;
 
 
 }
@@ -676,27 +676,12 @@ video {
         5px 5px 2px orangered,
         5px 5px 2px orangered;
 }
-
-.contenido__1 {
-    display: none;
-    width: 100%;
-    height: 100%;
-
+.menu__link--new{
+    color:yellow;
+    font-weight: 900;
 }
 
-.contenido__3 {
-    display: none;
-    width: 100%;
-    height: 100%;
 
-}
-
-.contenido__3 {
-
-    width: 100%;
-    height: 100%;
-
-}
 
 @keyframes fotos {
     0% {
